@@ -33,7 +33,33 @@ function QuestionContainer() {
                 </div>
             </Question>
             <Question title="Which Location Works Best For You?">
-                <GeoComponent/>
+            <div className='mapContainer'>
+                <div className='map'>
+                </div>
+                <div className='buttonContainer'>
+                <button className='mapDetails1'>
+
+                    <ul>
+                        <li>Commerce Bank</li>
+                        <li>Bank . asdfas</li>
+                        <li><span>Opens</span> <span>Closes</span></li>
+
+                    </ul>
+                </button>
+                <button className='mapDetails1'>
+                <ul>
+                        <li>Commerce Bank</li>
+                        <li>asdfas</li>
+                        <li><span>Opens</span> <span>Closes</span></li>
+
+                    </ul>
+                </button>
+                </div>
+             
+
+              
+                </div>
+              
             </Question>
             <Question title="Which Date and Time Works Best?">
                 <div className='date_section'>
@@ -43,6 +69,22 @@ function QuestionContainer() {
                     <option>10:00AM - 12:00PM</option>
                 </select>
                 </div>
+            </Question>
+            <Question title="Which are user details?">
+            <div className='services userDetails'>
+            <p>
+                        <label for="textarea">First Name:</label></p>
+                    <input/>
+                    <p>
+                        <label for="textarea">Last Name:</label></p>
+                    <input/>
+                    <p>
+                        <label for="textarea">Phone:</label></p>
+                    <input/>
+                    <p>
+                        <label for="textarea">Email:</label></p>
+                    <input/>
+                    </div>
             </Question>
             <button className='submit'>
                 SUBMIT
